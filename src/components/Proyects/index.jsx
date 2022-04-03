@@ -19,9 +19,9 @@ function Proyects() {
         <div>
             <Sidebar></Sidebar>
             <div className='container-img'>
-                <div  className={`${`item-zoom`} _2`}>
+                <a href='https://zoomcord.netlify.app/' target='_blank' rel='noreferrer'  className={`${`item-zoom`} _2`}>
                     <img className="card-img" src={ZoomCord} alt='ZoomCord'></img>
-                </div>
+                </a>
 
                 <a href='https://airbnbtemp.netlify.app/' target='_blank' rel='noreferrer' className={`${`item-zoom`} _6`}>
                     <img className="card-img" src={AirBnb} alt='ZoomCord'></img>
