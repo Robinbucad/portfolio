@@ -26,16 +26,16 @@ const About = () => {
               idx={15}
             ></AnimatedLetters>
           </h1>
-          <p>
+          <p className='st-p'>
             Soy un desarrollador full-stack muy ambicioso que busca un puesto en una
             empresa de TI con la oportunidad de trabajar con las últimas
             tecnologías en proyectos desafiantes y diversos.
           </p>
-          <p align="LEFT">
+          <p >
             Soy una persona tranquila, curiosa por naturaleza y que trabaja constantemente para
             mejorar mis habilidades.
           </p>
-          <p>
+          <p className='lt-p'>
             Si tengo que definirme en una frase sería una persona familiar
             , fanático de los deportes, y obsesionado con la tecnología!!
           </p>

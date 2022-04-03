@@ -2,6 +2,30 @@
   width: 100%;
   margin-top: 20px;
 
+  form{
+    &:before {
+      content: '<form>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -20px;
+      left: -20px;
+      opacity: 0.6;
+    }
+
+    &:after {
+      content: '</form>';
+      font-family: 'La Belle Aurore', cursive;
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -48px;
+      left: -20px;
+      opacity: 0.6;
+    }
+  }
+
   ul {
     padding: 0;
     margin: 0;

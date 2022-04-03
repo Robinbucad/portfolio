@@ -1,0 +1,145 @@
+.bar-skills{
+    width: 200px;
+    background-color: red;
+}
+
+.text-zone{
+    .st-p{
+        &:before {
+            content: '<p>';
+            font-family: 'La Belle Aurore', cursive;
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -20px;
+            left: -20px;
+            opacity: 0.6;
+          }
+        
+    }
+
+    .lt-p{
+        &:before {
+            content: '</p>';
+            font-family: 'La Belle Aurore', cursive;
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 35px;
+            left: -20px;
+            opacity: 0.6;
+          }
+    }
+}
+
+.container-bars{
+    width: 30%;
+    height: 100%;
+    top: 0;
+    padding-top: 10%;
+    margin-left: 0;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+
+    p{
+        color: white;
+        font-size: 13px;
+        font-weight: bold;
+
+    }
+}
+
+.bar-progress{
+    width: 80%;
+    border-radius: 10px;
+    height: 3px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+
+}
+
+.in-front{
+    width: 90%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-back{
+    width: 80%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-react{
+    width: 90%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-html5{
+    width: 90%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-css3{
+    width: 84%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-ts{
+    width: 50%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-bt{
+    width: 70%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-sk{
+    width: 65%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-md{
+    width: 85%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-node{
+    width: 75%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-git{
+    width: 90%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+.in-Sass{
+    width: 70%;
+    height: 3px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
