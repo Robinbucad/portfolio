@@ -98,6 +98,12 @@
       }
     }
 
+    a.works-link{
+      &:after{
+        content: 'WORKS';
+      }
+    }
+
     a.active {
       svg {
         color: #ffd700;
