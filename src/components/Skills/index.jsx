@@ -1,9 +1,6 @@
 import './style.scss'
 import { useEffect, useState } from "react"
 import AnimatedLetters from "../AnimatedLetters"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDatabase } from '@fortawesome/free-solid-svg-icons'
-import { faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 
 
 function Skills() {
